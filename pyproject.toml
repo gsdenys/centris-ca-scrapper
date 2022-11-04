@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "centris-ca-scrapper"
+version = "0.1.0"
+description = "Selenium scrapper for centris.ca"
+authors = ["Denys G. Santos <gsdenys@gmail.com>"]
+license = "AGPL"
+readme = "README.md"
+packages = [{include = "scrapper"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+selenium = "^4.5.0"
+pandas = "^1.5.1"
+webdriver-manager = "^3.8.4"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
