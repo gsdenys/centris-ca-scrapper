@@ -126,3 +126,4 @@ class Residence:
             address_list.append(i.text)
         
         return Address(address_list)
+    

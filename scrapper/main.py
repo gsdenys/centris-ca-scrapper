@@ -6,10 +6,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from scrapper.paginate import Paginate
 
 
-URLS = {    
-    0: 'https://www.centris.ca/en/properties~for-rent?view=Thumbnail', 
-    1: 'https://www.centris.ca/en/properties~for-sale?view=Thumbnail'
-}
+
 
 
 # def __execute(url: str) -> list:
