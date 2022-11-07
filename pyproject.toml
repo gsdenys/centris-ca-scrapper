@@ -12,6 +12,7 @@ python = "^3.10"
 selenium = "^4.5.0"
 pandas = "^1.5.1"
 webdriver-manager = "^3.8.4"
+sqlalchemy = "^1.4.43"
 
 
 [tool.poetry.group.dev.dependencies]
