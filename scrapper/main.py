@@ -9,15 +9,15 @@ from scrapper.paginate import Paginate
 
 
 
-# def __execute(url: str) -> list:
-#     data = []
+def __execute(url: str) -> list:
+    data = []
     
-#     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
-#     driver.get(url)
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
+    driver.get(url)
     
-#     driver.close()
-#     return data
+    driver.close()
+    return data
     
-# def main():
-#     for url in URLS:
-#         data = __execute(url=url)
+def main():
+    for url in URLS:
+        data = __execute(url=url)
